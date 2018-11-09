@@ -1,8 +1,12 @@
 import React from 'react';
 
+import '../styles/footer.css';
+
 function Footer(props) {
   return (
-    <h1>Footer here</h1>
+    <footer>
+      <h1>Footer here</h1>
+    </footer>
   );
 }
 
