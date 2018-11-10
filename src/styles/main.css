@@ -1,0 +1,39 @@
+.where-to {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 5em;
+  height: 368px;
+  background: url('../assets/map.png');
+  background-size: cover;
+}
+.where-to-title-container {
+  flex: 100%;
+  display: flex;
+  align-items: center;
+}
+.where-to-title-container h1 {
+  display: inline-block;
+  width: 75%;
+  margin: 0;
+  padding: 1em 1em 1em 0;
+  font-size: 3.5em;
+  background: white;
+}
+@media screen and (max-width: 1024px) {
+  .where-to {
+    margin: 4em 0 4em 0;
+  }
+  .where-to-title-container h1 {
+    width: 80%;
+    padding: 1em 1em 1em 0.75em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .where-to {
+    margin: 3em 0 3em 0;
+    height: 200px;
+  }
+  .where-to-title-container h1 {
+    font-size: 2em;
+  }
+}
