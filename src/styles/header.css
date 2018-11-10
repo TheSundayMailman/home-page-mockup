@@ -25,7 +25,7 @@ header {
 
 /* Right side of header, contains only header image */
 .header-right {
-  flex: 50%;
+  flex: 48%;
   order: 2;
   overflow: hidden;
 }
@@ -56,7 +56,7 @@ header {
 
 /* Left side of container, contains attract text and links to drive/ride */
 .header-left {
-  flex: 50%;
+  flex: 52%;
   order: 1;
   display: flex;
   flex-flow: column wrap;
@@ -76,23 +76,47 @@ header {
   display: flex;
   flex-flow: row wrap;
 }
+.drive-ride-container h2 {
+  margin: 0 0 1.25em 0;
+  font-size: 2em;
+}
+.drive-ride-container p {
+  margin: 0.5em 0;
+  padding-right: 50px;
+  color: #333333;
+}
+.drive-ride-container .learn-more-link {
+  display: block;
+  margin-bottom: 1em;
+  font-size: 1.25em;
+  color: #333333;
+}
 .drive {
   flex: 50%;
   position: relative;
 }
-.drive a {
+.drive-link {
   display: block;
   position: absolute;
   bottom: 0;
+  padding: 1em;
+  text-decoration: none;
+  color: white;
+  background: #276EF1;
+  border: 1px solid #276EF1;
 }
 .ride {
   flex: 50%;
   position: relative;
 }
-.ride a {
+.ride-link {
   display: block;
   position: absolute;
   bottom: 0;
+  padding: 1em;
+  text-decoration: none;
+  color: #276EF1;
+  border: 1px solid #276EF1;
 }
 @media screen and (max-width: 1024px) {
   .header-left {
@@ -101,10 +125,22 @@ header {
   .title-text-container h1 {
     margin: 0.5em 0;
   }
+  .drive-ride-container h2 {
+    margin: 1.5em 0 0.5em 0;
+    font-size: 2em;
+  }
+  .drive-link, .ride-link {
+    position: static;
+    max-width: 200px;
+  }
 }
 @media screen and (max-width: 768px) {
   .title-text-container h1 {
     font-size: 40px;
+  }
+  .drive-ride-container h2 {
+    margin: 1.25em 0 0.5em 0;
+    font-size: 1.75em;
   }
   .drive-ride-container {
     flex-flow: column wrap;

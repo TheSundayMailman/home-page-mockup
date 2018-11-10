@@ -19,14 +19,14 @@ function Header(props) {
             <div className="drive">
               <h2>Drive</h2>
               <p>Drive when you want. Find opportunities around you.</p>
-              <p>Learn more.</p>
-              <a href="https://dailyverse.netlify.com">Sign up to drive</a>
+              <a className="learn-more-link" href="https://dailyverse.netlify.com">Learn more</a>
+              <a className="drive-link" href="https://dailyverse.netlify.com">Sign up to drive</a>
             </div>
             <div className="ride">
               <h2>Ride</h2>
               <p>Tap your phone. Get where you're headed.</p>
-              <p>Learn more.</p>
-              <a href="https://dailyverse.netlify.com">Sign up to ride</a>
+              <a className="learn-more-link" href="https://dailyverse.netlify.com">Learn more</a>
+              <a className="ride-link" href="https://dailyverse.netlify.com">Sign up to ride</a>
             </div>
           </div>
         </div>

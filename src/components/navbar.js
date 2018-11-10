@@ -5,7 +5,7 @@ import '../styles/navbar.css';
 function Navbar(props) {
   return (
     <nav>
-      <p>NavBar here</p>
+      <h1>Uber</h1>
     </nav>
   );
 }
