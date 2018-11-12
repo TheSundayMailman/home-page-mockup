@@ -3,7 +3,7 @@
   flex-flow: column wrap;
   margin: 5em;
   height: 368px;
-  background: url('../assets/map.png');
+  background: url('../../assets/map.png');
   background-size: cover;
 }
 .where-to-title-container {

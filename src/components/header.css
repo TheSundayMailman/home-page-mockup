@@ -22,6 +22,11 @@ header {
     padding: 0 1.5em;
   }
 }
+@media screen and (max-height: 680px) {
+  header {
+    height: initial;
+  }
+}
 
 /* Right side of header, contains only header image */
 .header-right {
@@ -94,6 +99,7 @@ header {
 .drive {
   flex: 50%;
   position: relative;
+  min-height: 120px;
 }
 .drive-link {
   display: block;
@@ -108,6 +114,7 @@ header {
 .ride {
   flex: 50%;
   position: relative;
+  min-height: 220px;
 }
 .ride-link {
   display: block;

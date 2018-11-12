@@ -1,33 +1,23 @@
 import React from 'react';
 
-import '../styles/main.css';
+import WhereTo from './main-section/where-to.js';
+import Beyond from './main-section/beyond.js';
+import Safety from './main-section/safety.js';
+import LatestNews from './main-section/latest.js';
+import Doors from './main-section/doors.js';
+import About from './main-section/about.js';
+import Signup from './main-section/signup.js';
 
 function Main(props) {
   return (
     <main>
-      <section className="where-to">
-        <div className="where-to-title-container">
-          <h1>Where to?</h1>
-        </div>
-      </section>
-      <section>
-        <h1>Beyond ride sharing</h1>
-      </section>
-      <section>
-        <h1>Safety</h1>
-      </section>
-      <section>
-        <h1>Latest news</h1>
-      </section>
-      <section>
-        <h1>Doors are always opening</h1>
-      </section>
-      <section>
-        <h1>About, News, Community</h1>
-      </section>
-      <section>
-        <h1>Signup</h1>
-      </section>
+      <WhereTo />
+      <Beyond />
+      <Safety />
+      <LatestNews />
+      <Doors />
+      <About />
+      <Signup />
     </main>
   );
 }
