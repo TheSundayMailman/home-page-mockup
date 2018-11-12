@@ -22,7 +22,7 @@ header {
     padding: 0 1.5em;
   }
 }
-@media screen and (max-height: 680px) {
+@media screen and (max-height: 680px), screen and (min-height: 800px) {
   header {
     height: initial;
   }

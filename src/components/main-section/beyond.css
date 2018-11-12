@@ -16,7 +16,7 @@
 }
 .service-container a {
   color: #276EF1;
-  font-size: 1.5em;
+  font-size: 1.25em;
   text-decoration: none;
 }
 @media screen and (max-width: 1024px) {
@@ -31,6 +31,9 @@
 @media screen and (max-width: 768px) {
   .beyond {
     padding: 0 1.5em;
+  }
+  .beyond h1 {
+    font-size: 2em;
   }
   .service-container img {
     width: 200px;
