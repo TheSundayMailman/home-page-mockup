@@ -1,4 +1,5 @@
 .about {
+  margin: 2em 0;
   padding: 0 5em;
 }
 .about-row {
@@ -13,6 +14,9 @@
 .about-icon-bullet {
   width: 42px;
   height: 42px;
+}
+.about-text-container {
+  padding-right: 5em;
 }
 .about-text-container h3 {
   font-size: 2em;

@@ -13,7 +13,7 @@ function About(props) {
           <div className="about-text-container">
             <h3>About us</h3>
             <p>Our story, leadership, and where we’re going</p>
-            <a href="https://dailyverse.netlify.com">Learn more</a>
+            <a href="https://dailyverse.netlify.com">Learn more ></a>
           </div>
         </div>
         <div className="about-item">
@@ -23,7 +23,7 @@ function About(props) {
           <div className="about-text-container">
             <h3>Newsroom</h3>
             <p>Company news, partnerships, and app updates</p>
-            <a href="https://dailyverse.netlify.com">Learn more</a>
+            <a href="https://dailyverse.netlify.com">Learn more ></a>
           </div>
         </div>
         <div className="about-item">
@@ -33,7 +33,7 @@ function About(props) {
           <div className="about-text-container">
             <h3>Community</h3>
             <p>How we’re strengthening cities and communities</p>
-            <a href="https://dailyverse.netlify.com">Learn more</a>
+            <a href="https://dailyverse.netlify.com">Learn more ></a>
           </div>
         </div>
       </div>

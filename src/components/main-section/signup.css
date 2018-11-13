@@ -1,0 +1,41 @@
+.signup {
+  margin: 5em 0;
+  padding: 0 5em;
+}
+.signup-row {
+  display: flex;
+  flex-flow: row wrap;
+}
+.signup-item {
+  flex: 50%;
+}
+.signup-link-container {
+  margin-right: 3.5em;
+  border-bottom: 1px solid black;
+}
+.signup-link-container h2 {
+  font-size: 3.5em;
+}
+@media screen and (max-width: 1024px) {
+  .signup {
+    padding: 0 2.5em;
+  }
+  .signup-link-container {
+    margin-right: 2.5em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .signup {
+    margin: 2.5em 0;
+    padding: 0 1.5em;
+  }
+  .signup-row {
+    flex-flow: column wrap;
+  }
+  .signup-link-container {
+    margin-right: 0;
+  }
+  .signup-link-container h2 {
+    font-size: 2.5em;
+  }
+}
