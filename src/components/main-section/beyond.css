@@ -23,6 +23,9 @@
   .beyond {
     padding: 2.5em 2.5em 0 2.5em;
   }
+  .service-container {
+    margin-right: 2.5em;
+  }
   .service-container img {
     width: 300px;
     height: auto;
@@ -34,6 +37,9 @@
   }
   .beyond h1 {
     font-size: 2em;
+  }
+  .service-container {
+    margin-right: 1.5em;
   }
   .service-container img {
     width: 200px;
