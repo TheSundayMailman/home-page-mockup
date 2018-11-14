@@ -31,7 +31,6 @@ header {
 /* Right side of header, contains only header image */
 .header-right {
   flex: 48%;
-  order: 2;
   overflow: hidden;
 }
 .header-img-container {
@@ -62,7 +61,6 @@ header {
 /* Left side of container, contains attract text and links to drive/ride */
 .header-left {
   flex: 52%;
-  order: 1;
   display: flex;
   flex-flow: column wrap;
 }
@@ -111,6 +109,10 @@ header {
   background: #276EF1;
   border: 1px solid #276EF1;
 }
+.drive-link:hover {
+  background: black;
+  border: 1px solid black;
+}
 .ride {
   flex: 50%;
   position: relative;
@@ -124,6 +126,10 @@ header {
   text-decoration: none;
   color: #276EF1;
   border: 1px solid #276EF1;
+}
+.ride-link:hover {
+  color: black;
+  border: 1px solid black;
 }
 @media screen and (max-width: 1024px) {
   .header-left {

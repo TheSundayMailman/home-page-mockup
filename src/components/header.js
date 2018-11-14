@@ -6,11 +6,6 @@ function Header(props) {
   return (
     <header>
       <div className="header-container">
-        <div className="header-right">
-          <div className="header-img-container">
-            <img className="header-img" src={require('../assets/header.png')} alt="placeholder" />
-          </div>
-        </div>
         <div className="header-left">
           <div className="title-text-container">
             <h1>Move the way you want</h1>
@@ -28,6 +23,11 @@ function Header(props) {
               <a className="learn-more-link" href="https://dailyverse.netlify.com">Learn more</a>
               <a className="ride-link" href="https://dailyverse.netlify.com">Sign up to ride</a>
             </div>
+          </div>
+        </div>
+        <div className="header-right">
+          <div className="header-img-container">
+            <img className="header-img" src={require('../assets/header.png')} alt="Hand sticking out from passenger seat." />
           </div>
         </div>
       </div>

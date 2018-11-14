@@ -23,6 +23,9 @@
   .signup-link-container {
     margin-right: 2.5em;
   }
+  .signup-link-container h2 {
+    font-size: 3em;
+  }
 }
 @media screen and (max-width: 768px) {
   .signup {
